@@ -28,31 +28,31 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="/about"
+              to="/"
               className="hover:text-[#FEBF00] transition-colors duration-200"
             >
               About
             </Link>
             <Link
-              to="/portfolio"
+              to="#"
               className="hover:text-[#FEBF00] transition-colors duration-200"
             >
               Portfolio
             </Link>
             <Link
-              to="/clients"
+              to="#"
               className="hover:text-[#FEBF00] transition-colors duration-200"
             >
               Clients
             </Link>
             <Link
-              to="/blog"
+              to="#"
               className="hover:text-[#FEBF00] transition-colors duration-200"
             >
               Blog
             </Link>
             <Link
-              to="/contact"
+              to="#"
               className="hover:text-[#FEBF00] transition-colors duration-200"
             >
               Contact
@@ -84,35 +84,35 @@ const Header = () => {
             Home
           </Link>
           <Link
-            to="/about"
+            to="#"
             onClick={handleChange}
             className="hover:text-[#FEBF00] transition-colors duration-200"
           >
             About
           </Link>
           <Link
-            to="/portfolio"
+            to="#"
             onClick={handleChange}
             className="hover:text-[#FEBF00] transition-colors duration-200"
           >
             Portfolio
           </Link>
           <Link
-            to="/clients"
+            to="#"
             onClick={handleChange}
             className="hover:text-[#FEBF00] transition-colors duration-200"
           >
             Clients
           </Link>
           <Link
-            to="/blog"
+            to="#"
             onClick={handleChange}
             className="hover:text-[#FEBF00] transition-colors duration-200"
           >
             Blog
           </Link>
           <Link
-            to="/contact"
+            to="#"
             onClick={handleChange}
             className="hover:text-[#FEBF00] transition-colors duration-200"
           >
