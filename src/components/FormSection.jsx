@@ -4,7 +4,7 @@ import { AiOutlineCalendar } from "react-icons/ai";
 const FormSection = () => {
   return (
     <div
-      className="relative overflow-hidden  bg-cover bg-no-repeat p-12 h-[900px] "
+      className="relative overflow-hidden  bg-cover bg-no-repeat p-12 h-[900px] mt-28 "
       style={{ backgroundImage: "url('/images/formImage.png')" }}
     >
       <div className="absolute sm:container lg:p-28 p-6 inset-0 h-full w-full text-white  bg-opacity-60">

@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Herosection />
       <About />
-      <div className=" relative  p-5  space-y-10  w-full h-[600px] ">
+      <div className=" relative  p-5  space-y-10  w-full lg:h-[600px] ">
         <div className=" sm:container  space-y-4">
           <div className="flex justify-start items-center gap-2">
             <p className=" border-1px w-3 h-3 bg-[#B52B1D]"></p>
@@ -26,7 +26,7 @@ const Home = () => {
         <div className="absolute lg:flex top-4 hidden ">
             <img src="/images/salad.png" />
         </div>
-        <div className="sm:container ">
+        <div className="sm:container mt-5 ">
           <DataSlide cards={<ItemCard />} />
         </div>
       </div>
