@@ -5,7 +5,7 @@ import React from "react";
 const Herosection = () => {
   return (
     <section className="w-full  bg-red-600">
-      <div className="xl:container p-14 flex lg:flex-row flex-col lg:py-32 gap-8 items-center">
+      <div className="xl:container p-6 flex lg:flex-row flex-col lg:py-32 gap-8 items-center">
         {/* Text Section */}
         <div className=" lg:absolute lg:top-[35%] z-10 space-y-5">
           <h1 className=" bg-red-500 bg-opacity-40  text-[40px] lg:text-[120px] lg:w-[830px] text-white leading-tight font-bebas">

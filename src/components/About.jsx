@@ -58,7 +58,7 @@ const Details = () => {
             </p>
             <div className="flex justify-start items-center gap-5">
               <Link
-                className="px-4 py-3 bg-[#FEBF00] font-[700] text-[18px] rounded-sm"
+                className=" sm:px-4 px-3 py-3 bg-[#FEBF00] font-[700] text-[18px] rounded-sm"
                 to="#"
               >
                 About More
