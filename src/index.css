@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.custom-left {
+  position: relative; /* Make sure to set position to relative */
+  left: 50%;
+}
+
+.custom-width{
+  width: 559px
+}
+@media (max-width: 1530px) {
+  .custom-width {
+    width: 509px /* or any other value you want */
+  }
+}
+@media (max-width: 1530px) {
+  .custom-width {
+    width: 400px /* or any other value you want */
+  }
+}
+@media (max-width: 1210px) {
+  .custom-width {
+    width: 300px /* or any other value you want */
+  }
+}
+@media (max-width: 1010px) {
+  .custom-width {
+    width: 400px /* or any other value you want */
+  }
+}
+
+@media (max-width: 1530px) {
+  .custom-left {
+    left: 44%; /* or any other value you want */
+  }
+}
+@media (max-width: 1305px) {
+  .custom-left {
+    left: 35%; /* or any other value you want */
+  }
+}
+@media (max-width: 1271px) {
+  .custom-left {
+    left: 30%; /* or any other value you want */
+  }
+}
+@media (max-width: 1195px) {
+  .custom-left {
+    left: 25%; /* or any other value you want */
+  }
+}
+@media (max-width: 1025px) {
+  .custom-left {
+    left: 0%; /* or any other value you want */
+  }
+}
