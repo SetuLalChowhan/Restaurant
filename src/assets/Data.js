@@ -24,6 +24,31 @@ export const DataStorage = [
     name: "Spacial Pizza ",
     details: "Barbecue Italian cuisine pizza",
   },
+  {
+    image: "/images/burger.png",
+    name: "Vegetables Burger",
+    details: "Barbecue Italian cuisine pizza",
+  },
+  {
+    image: "/images/pizza.png",
+    name: "Spacial Pizza ",
+    details: "Barbecue Italian cuisine pizza",
+  },
+  {
+    image: "/images/Rice.png",
+    name: "Spacial French fries ",
+    details: "Barbecue Italian cuisine",
+  },
+  {
+    image: "/images/chicken.png",
+    name: "Cuisine Chicken",
+    details: "Japanese Cuisine Chicken",
+  },
+  {
+    image: "/images/pizza.png",
+    name: "Spacial Pizza ",
+    details: "Barbecue Italian cuisine pizza",
+  },
 
 ];
 
