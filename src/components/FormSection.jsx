@@ -97,7 +97,7 @@ const FormSection = () => {
             <div className="flex md:flex-row flex-col gap-10">
               <div className="relative md:w-[302px]">
                 <input
-                  type="text" // Or use 'date' type for a date picker
+                  type="text"
                   name="date"
                   placeholder="Reservation Date"
                   value={formData.date}
