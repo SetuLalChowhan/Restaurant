@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Herosection />
       <About />
-      <div className=" relative  p-5  space-y-10  w-full lg:h-[600px] ">
+      <div className=" relative  p-5  space-y-10  w-full lg:h-[600px] mt-20 ">
         <div className=" sm:container  space-y-4">
           <div className="flex justify-start items-center gap-2">
             <p className=" border-1px w-3 h-3 bg-[#B52B1D]"></p>
@@ -31,7 +31,7 @@ const Home = () => {
         </div>
       </div>
       <FormSection />
-      <div className=" relative space-y-10  w-full mt-28 lg:h-[966px]  ">
+      <div className=" relative space-y-10  w-full mt-20 lg:h-[966px]  ">
         <div className=" sm:container p-5 space-y-4">
           <div className="flex justify-start items-center gap-2">
             <p className=" border-1px w-3 h-3 bg-[#B52B1D]"></p>
