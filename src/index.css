@@ -33,7 +33,7 @@ body {
 }
 @media (max-width: 1010px) {
   .custom-width {
-    width: 300px /* or any other value you want */
+    width: 100% /* or any other value you want */
   }
 }
 
