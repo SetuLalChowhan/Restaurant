@@ -4,7 +4,7 @@ import { FiPhoneCall } from "react-icons/fi";
 
 const Details = () => {
   return (
-    <section className="w-full xl:h-[800px] mt-32">
+    <section className="w-full xl:h-[800px] mt-32  ">
       <div className="relative">
         <div className="flex sm:container p-5  lg:flex-row flex-col  gap-16 ">
           <div className="relative ">
