@@ -16,10 +16,10 @@ const Header = () => {
       <div className="md:container flex justify-between px-4 py-5">
         {/* Logo and Desktop Nav */}
         <div className="flex items-center gap-10">
-          <div className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <img src={`/images/Vector.png`} alt="logo" />
             <h1 className="text-[29px] font-semibold">Restaurant</h1>
-          </div>
+          </Link>
           <nav className="hidden lg:flex gap-4 text-[15px] font-medium">
             <Link
               to="/"
