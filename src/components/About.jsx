@@ -3,10 +3,9 @@ import { Link } from "react-router-dom";
 import { FiPhoneCall } from "react-icons/fi";
 
 const Details = () => {
-  // State to track active tab
   const [activeTab, setActiveTab] = useState("About");
 
-  // Content for each tab
+
   const tabContent = {
     About: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus.",
     Experience: "Experience in providing top-notch culinary delights, serving a variety of cuisines with utmost professionalism.",
@@ -37,7 +36,7 @@ const Details = () => {
             </div>
           </div>
           <div className="xl:w-[624px] text-black space-y-5 flex-1">
-            {/* Tab Navigation */}
+
             <div className="flex justify-start items-center gap-10 border-b-2 border-[#B52B1D] text-[14px] font-[500]">
               {["About", "Experience", "Contact"].map((tab) => (
                 <p
@@ -52,7 +51,7 @@ const Details = () => {
               ))}
             </div>
 
-            {/* Dynamic Content */}
+
             <p className="font-bebas md:text-[62px] text-[50px] font-[500] leading-none">
               Exceptional culinary experience and delicious food
             </p>
