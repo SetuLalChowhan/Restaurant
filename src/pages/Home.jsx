@@ -1,6 +1,6 @@
 import React from "react";
 import Herosection from "../components/Herosection";
-import Details from "../components/Details";
+import About from "../components/About";
 import DataSlide from "../components/DataSlide";
 import FormSection from "../components/FormSection";
 import ItemCard from "../components/ItemCard";
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <Herosection />
-      <Details />
+      <About />
       <div className=" relative  p-5  space-y-10  w-full h-[600px] ">
         <div className=" sm:container  space-y-4">
           <div className="flex justify-start items-center gap-2">
