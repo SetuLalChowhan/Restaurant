@@ -74,7 +74,7 @@ const FormSection = () => {
                   placeholder="Your Name*"
                   value={formData.name}
                   onChange={handleChange}
-                  className="px-6 py-3 border-[1px] border-[#E5E7EB] bg-transparent md:w-[302px]"
+                  className="px-6 py-3 border-[1px] border-[#E5E7EB] bg-transparent w-full md:w-[302px]"
                 />
                 {errors.name && (
                   <p className="text-red-500 text-sm mt-1">{errors.name}</p>
@@ -87,7 +87,7 @@ const FormSection = () => {
                   placeholder="Your Email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="px-6 py-3 border-[1px] border-[#E5E7EB] bg-transparent md:w-[302px]"
+                  className="px-6 py-3 border-[1px]  w-full  border-[#E5E7EB] bg-transparent md:w-[302px]"
                 />
                 {errors.email && (
                   <p className="text-red-500 text-sm mt-1">{errors.email}</p>
@@ -102,7 +102,7 @@ const FormSection = () => {
                   placeholder="Reservation Date"
                   value={formData.date}
                   onChange={handleChange}
-                  className="px-6 py-3 border-[1px] border-[#E5E7EB] bg-transparent w-full pr-12"
+                  className="px-6 py-3 border-[1px]  border-[#E5E7EB] bg-transparent w-full "
                 />
                 <AiOutlineCalendar className="w-5 h-5 text-gray-400 absolute right-3 top-1/2 transform -translate-y-1/2" />
                 {errors.date && (
@@ -116,7 +116,7 @@ const FormSection = () => {
                   placeholder="Total People"
                   value={formData.people}
                   onChange={handleChange}
-                  className="px-6 py-3 border-[1px] border-[#E5E7EB] bg-transparent md:w-[302px]"
+                  className="px-6 py-3 border-[1px]  w-full  border-[#E5E7EB] bg-transparent md:w-[302px]"
                 />
                 {errors.people && (
                   <p className="text-red-500 text-sm mt-1">{errors.people}</p>
