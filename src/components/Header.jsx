@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full  bg-red-600 text-white shadow-md z-10 border-b-0">
+    <header className="w-full sticky top-0 bg-red-600 text-white z-30 ">
       <div className="md:container flex justify-between px-4 py-5">
         {/* Logo and Desktop Nav */}
         <div className="flex items-center gap-10">
