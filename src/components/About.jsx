@@ -59,7 +59,7 @@ const Details = () => {
               {tabContent[activeTab]}
             </p>
 
-            <div className="flex justify-start items-center gap-5">
+            <div className="flex justify-start items-center gap-2 sm:gap-5">
               <Link
                 className="md:px-4 px-2 py-3 bg-[#FEBF00] font-[500] md:font-[700] md:text-[18px] rounded-sm"
                 to="#"
