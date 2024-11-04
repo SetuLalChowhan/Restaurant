@@ -42,7 +42,7 @@ const Details = () => {
                 <p
                   key={tab}
                   onClick={() => setActiveTab(tab)}
-                  className={`px-4 py-2 cursor-pointer ${
+                  className={`px-3 py-2 cursor-pointer ${
                     activeTab === tab ? "bg-[#B52B1D] text-white" : ""
                   }`}
                 >
