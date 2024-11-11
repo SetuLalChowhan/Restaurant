@@ -9,7 +9,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .custom-left {
-  position: relative; /* Make sure to set position to relative */
+  position: relative; 
   left: 50%;
 }
 
@@ -18,22 +18,22 @@ body {
 }
 @media (max-width: 1530px) {
   .custom-width {
-    width: 509px /* or any other value you want */
+    width: 509px /
   }
 }
 @media (max-width: 1530px) {
   .custom-width {
-    width: 400px /* or any other value you want */
+    width: 400px
   }
 }
 @media (max-width: 1210px) {
   .custom-width {
-    width: 300px /* or any other value you want */
+    width: 300px
   }
 }
 @media (max-width: 1010px) {
   .custom-width {
-    width: 100% /* or any other value you want */
+    width: 100% 
   }
 }
 

@@ -24,7 +24,7 @@ const Home = () => {
           </h1>
         </div>
         <div className="absolute lg:flex top-4 hidden ">
-            <img src="/images/salad.png" />
+          <img src="/images/salad.png" />
         </div>
         <div className="sm:container mt-5 ">
           <DataSlide cards={<ItemCard />} />
@@ -40,17 +40,17 @@ const Home = () => {
             </p>
           </div>
           <h1 className="sm:text-[62px] text-[40px] font-[700] font-bebas">
-          What Some of my Customers Say
+            What Some of my Customers Say
           </h1>
         </div>
         <div className="absolute lg:flex top-4 hidden ">
-            <img src="/images/tomatoo.png" />
+          <img src="/images/tomatoo.png" />
         </div>
         <div className="xl:container p-10">
           <DataSlide cards={<ReviewCard />} />
         </div>
         <div className="absolute right-2  lg:flex top-20 hidden ">
-            <img src="/images/veg.png" />
+          <img src="/images/veg.png" />
         </div>
       </div>
     </div>
