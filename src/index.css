@@ -39,26 +39,26 @@ body {
 
 @media (max-width: 1530px) {
   .custom-left {
-    left: 44%; /* or any other value you want */
+    left: 44%; 
   }
 }
 @media (max-width: 1305px) {
   .custom-left {
-    left: 35%; /* or any other value you want */
+    left: 35%; 
   }
 }
 @media (max-width: 1271px) {
   .custom-left {
-    left: 30%; /* or any other value you want */
+    left: 30%; 
   }
 }
 @media (max-width: 1195px) {
   .custom-left {
-    left: 25%; /* or any other value you want */
+    left: 25%; 
   }
 }
 @media (max-width: 1025px) {
   .custom-left {
-    left: 0%; /* or any other value you want */
+    left: 0%; 
   }
 }
