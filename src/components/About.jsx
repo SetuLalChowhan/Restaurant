@@ -13,9 +13,9 @@ const Details = () => {
   };
 
   return (
-    <section className="w-full xl:h-[800px] mt-32">
+    <section className="w-full xl:h-[800px] mt-32 ">
       <div className="relative">
-        <div className="flex sm:container p-5 lg:flex-row flex-col gap-16">
+        <div className="flex sm:container p-5 lg:flex-row flex-col gap-16 ">
           <div className="relative">
             <img
               src={`/images/Details.png`}
@@ -23,7 +23,7 @@ const Details = () => {
               className="w-full h-auto"
             />
             <div className="absolute flex justify-center items-center gap-4 lg:gap-8 lg:px-6 top-[5%] left-[2%] rounded-lg w-[180px] h-[90px] lg:w-[242px] lg:h-[137px] text-black bg-[#FFFFFF]">
-              <div className="relative flex ml-5 items-center justify-center">
+              <div className="relative flex ml-5 items-center justify-center " >
                 <div
                   className="absolute w-16 h-16 lg:w-20 lg:h-20 border-4 border-[#FEBF00] rounded-full"
                   style={{ clipPath: "inset(10% 0 0 0)", transform: "rotate(-45deg)" }}

@@ -1,4 +1,3 @@
-"use client"; // Ensure this line is present for Next.js
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,10 +11,7 @@ import { DataStorage } from "../assets/Data";
 const DataSlide = ({cards,custom_arrow,num1,num2}) => {
   return (
     <div className="relative">
-      {/* Place navigation buttons on top */}
-     
-     
-     
+
       <Swiper
         style={{
           "--swiper-navigation-color": "000",
