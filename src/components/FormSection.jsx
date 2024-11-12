@@ -12,7 +12,6 @@ const FormSection = () => {
 
   const [errors, setErrors] = useState({});
 
-  // Handle form input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });

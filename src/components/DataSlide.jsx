@@ -38,7 +38,7 @@ const DataSlide = ({cards,custom_arrow,num1,num2}) => {
           },
         }}
         navigation={false}
-        modules={[Autoplay, Navigation]}
+        modules={[Autoplay]}
         className="tailwind Css"
       >
           {cards}

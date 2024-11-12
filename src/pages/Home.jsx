@@ -9,8 +9,11 @@ import ReviewCard from "../components/ReviewCard";
 const Home = () => {
   return (
     <div>
+      {/* hero section */}
       <Herosection />
+      {/* About Section */}
       <About />
+      {/* Menu slide section */}
       <div className=" relative  p-5  space-y-10  w-full lg:h-[600px] mt-20 ">
         <div className=" sm:container  space-y-4">
           <div className="flex justify-start items-center gap-2">
@@ -30,7 +33,9 @@ const Home = () => {
           <DataSlide cards={<ItemCard />} />
         </div>
       </div>
+      {/* Form Section */}
       <FormSection />
+      {/* Testimonial Section */}
       <div className=" relative space-y-10  w-full mt-20 lg:h-[966px]  ">
         <div className=" sm:container p-5 space-y-4">
           <div className="flex justify-start items-center gap-2">
